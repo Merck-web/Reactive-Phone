@@ -252,6 +252,7 @@ section.learning_wrapper{
     left: 0;
   }
 
+
   .btn_back{
     p{
       margin-left: 16px;
@@ -371,4 +372,25 @@ section.actions_wrapper{
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
   opacity: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $lightTextColorTextSecondary;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $lightTextColorTextSecondary;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $lightTextColorTextSecondary;
 }
